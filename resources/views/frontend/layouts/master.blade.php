@@ -154,6 +154,7 @@
     <!--main/custom js-->
     <script src="{{ asset('frontend/js/main.js') }}"></script>
 
+    <!-- show dynamic validation error -->
     <script>
         @if ($errors->any())
             @foreach ($errors->all() as $error)
